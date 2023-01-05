@@ -42,7 +42,7 @@ type R = { type: "c"; ccc: string };
 type T = { type: "d"; ddd: string };
 
 function typeCheck(a: E | R | T) {
-  /* 값으로 구분하는방법
+  /* 값으로 구분하는방법 (더 많이 사용함)
   
   if (a.type === "b") {
     a.bbb;

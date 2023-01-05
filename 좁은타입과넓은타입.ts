@@ -8,7 +8,7 @@ type ObjC = ObjA & ObjB;
 const typec: ObjC = {
   name: "d",
   age: 23,
-  married: false,
+  // married: false,
 };
 
 // 객체는 속성들이 많을수록 더 상세하기떄문에 좁다

@@ -6,4 +6,5 @@ interface Array<T> {
 const eachA: Array<number> = [1, 2, 3, 4];
 eachA.forEach((item) => console.log(item));
 
-const mapA = [1, 2, 3].map((item) => item + 1);
+const mapA: Array<number> = [1, 2, 3];
+mapA.map((item) => item + 1);
